@@ -1,0 +1,113 @@
+#app {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.3;
+}
+
+.router-view {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-fit {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.between-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-aic {
+    display: flex;
+    align-items: center;
+}
+
+.flex-none {
+    flex: none;
+}
+
+.flex-auto {
+    flex: auto;
+}
+
+.wh-100p {
+    width: 100%;
+    height: 100%;
+}
+
+.w-100p {
+    width: 100%;
+}
+
+.h-100p {
+    height: 100%;
+}
+
+.minh-100p {
+    min-height: 100%;
+}
+
+.page-list {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.txt-ell {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.line-clamp2 {
+    display: -webkit-box;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

@@ -1,0 +1,17 @@
+{
+    "HomeView": {
+        "auth": [
+            "System.AuditLogs"
+        ]
+    },
+    "TestView1": {
+        "auth": [
+            "RealEstateDataManagement"
+        ],
+        "keepalive": true
+    },
+    "TestView2": {
+        "keepalive": true,
+        "multiple": true
+    }
+}

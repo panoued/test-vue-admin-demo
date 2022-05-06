@@ -1,0 +1,62 @@
+[
+	{
+		"path": "/login",
+		"name": "Login",
+		"component": "login/index.vue"
+	},
+	{
+		"path": "/permission/error",
+		"name": "PermissionError",
+		"component": "permission/error.vue"
+	},
+	{
+		"path": "/test/view1",
+		"name": "TestView1",
+		"component": "test/view1.vue"
+	},
+	{
+		"path": "/test/view2",
+		"name": "TestView2",
+		"component": "test/view2/index.vue"
+	},
+	{
+		"path": "/test/view3",
+		"name": "TestView3",
+		"component": "test/view3.vue"
+	},
+	{
+		"path": "/test/view4/:id?",
+		"name": "TestView4",
+		"component": "test/view4/_id.vue"
+	},
+	{
+		"path": "/test/view5",
+		"name": "TestView5",
+		"component": "test/view5/index.vue"
+	},
+	{
+		"path": "/test/view6/:key",
+		"name": "TestView6",
+		"component": "test/view6/_key/index.vue"
+	},
+	{
+		"path": "/test/view7/:key/:type/:id",
+		"name": "TestView7",
+		"component": "test/view7/_key/_type/_id/index.vue"
+	},
+	{
+		"path": "/test/view8/:name?/:value?",
+		"name": "TestView8",
+		"component": "test/view8/_name/_value.vue"
+	},
+	{
+		"path": "/",
+		"name": "HomeView",
+		"component": "home/view.vue"
+	},
+	{
+		"path": "/test/view0",
+		"name": "TestView0",
+		"component": "test/view1.vue"
+	}
+]

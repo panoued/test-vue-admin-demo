@@ -1,0 +1,39 @@
+{
+    "name": "yurenmatou-vue-ts",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "vue-cli-service serve",
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build"
+    },
+    "dependencies": {
+        "axios": "^0.21.4",
+        "better-scroll": "^2.4.2",
+        "vue": "^2.6.11",
+        "vue-class-component": "^7.2.3",
+        "vue-navigation": "^1.1.4",
+        "vue-property-decorator": "^9.1.2",
+        "vue-router": "^2.8.1",
+        "vuex": "^3.4.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-typescript": "~4.5.0",
+        "@vue/cli-plugin-vuex": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "compression-webpack-plugin": "^6.1.1",
+        "node-sass": "^4.12.0",
+        "pont-engine": "^1.2.0",
+        "sass-loader": "^8.0.2",
+        "terser-webpack-plugin": "^4.2.3",
+        "ts-import-plugin": "^2.0.0",
+        "typescript": "~4.1.5",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}

@@ -1,0 +1,84 @@
+$c: #007362;
+$cl: #66ada3;
+$cd: #007765;
+$ca: #068b77;
+$bg: #e9faf5;
+$bga: #caf1e6;
+$bgt: #93e6ce;
+$red: #f4333b;
+$red-ll: #ffeaea;
+$red-d: #d81218;
+$green: #2cd7aa;
+$green-l: #48ebbf;
+$green-d: #09b98a;
+$blue: #118ee9;
+$blue-l: #2697eb;
+$blue-d: #0675c4;
+$blue-dd: #80acd5;
+$blue-t: #45a7ef;
+$blue-ll: #bee2fc;
+$cyan-ll: #e3eef6;
+$yellow: #ffc601;
+$cr: #ef3c76;
+$border-color: #ebebeb;
+$border: 1px solid $border-color;
+$dashed: 1px dashed $border-color;
+$ff: "PingFangSC-Regular", "PingFang SC", "Microsoft YaHei", arial, sans-serif, "Droid Sans Fallback";
+
+%center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+%flexcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%textell {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@mixin leftcenter($l: 0) {
+    position: absolute;
+    top: 50%;
+    left: $l;
+    transform: translateY(-50%);
+}
+
+@mixin rightcenter($r: 0) {
+    position: absolute;
+    top: 50%;
+    right: $r;
+    transform: translateY(-50%);
+}
+
+@mixin topcenter($t: 0) {
+    position: absolute;
+    top: $t;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@mixin bgcover($h, $url) {
+    height: $h;
+    background-image: url($url);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@mixin line-clamp($n: 2) {
+    display: -webkit-box;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: $n;
+    -webkit-line-clamp: $n;
+    -webkit-box-orient: vertical;
+}

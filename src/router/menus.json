@@ -1,0 +1,39 @@
+[
+    {
+        "name": "HomeView",
+        "title": "HomePage",
+        "icon": "yr-icon yr-icon-yanchituifang"
+    },
+    {
+        "title": "MaCao",
+        "icon": "yr-icon yr-icon-rexiao-huangguan",
+        "children": [
+            {
+                "name": "TestView1",
+                "title": "TestView1",
+                "icon": "yr-icon yr-icon-huodong"
+            },
+            {
+                "name": "TestView2",
+                "title": "TestView2",
+                "icon": "yr-icon yr-icon-youhuiquan"
+            }
+        ]
+    },
+    {
+        "title": "PageNotFound",
+        "icon": "yr-icon yr-icon-rexiao-huangguan",
+        "children": [
+            {
+                "name": "TestView3",
+                "title": "TestView3",
+                "icon": "yr-icon yr-icon-huodong"
+            },
+            {
+                "name": "TestView4",
+                "title": "TestView4",
+                "icon": "yr-icon yr-icon-youhuiquan"
+            }
+        ]
+    }
+]

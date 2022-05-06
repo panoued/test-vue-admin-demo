@@ -1,0 +1,6 @@
+{
+    "originUrl": "",
+    "outDir": "../src/api",
+    "templatePath": "./pontTemplate",
+    "transformPath": "transformTemplate"
+}
