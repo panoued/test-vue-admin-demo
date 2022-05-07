@@ -24,6 +24,16 @@ npm run build
     <br />
     output：输出结果所在文件
     <br />
+    src/views/test/view4/_id.vue会生成以下路由：
+    ```
+    {
+		"path": "/test/view4/:id?",
+		"name": "TestView4",
+		"component": "test/view4/_id.vue"
+	}
+    ```
+    如果id参数需要必选，可以在_id文件夹下创建index.vue
+    <br />
 2. 配置根目录下vue.init -> lang -> config.js 
     <br />
     cn: 简体语言文件路径
