@@ -48,6 +48,6 @@ npm run build
     <br />
     name： 目标路由name，用于跳转
     <br />
-    icon： 菜单
+    icon： 菜单图标
     <br />
     title： 菜单名(多语言key)
