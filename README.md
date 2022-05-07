@@ -16,7 +16,7 @@ npm run build
 使用方法：
 1. 配置根目录下vue.init -> route -> config.js 
     <br />
-    views: 路由所有文件夹
+    views: 路由所在文件夹
     <br />
     excludes：该文件不自动生成路由
     <br />
